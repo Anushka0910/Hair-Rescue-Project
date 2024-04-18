@@ -1,0 +1,60 @@
+body {
+    font-family: 'times new roman';
+    margin: 0;
+    padding: 0;
+    background-color:
+    rgba(226, 192, 23, 0.445);
+}
+
+header {
+    background-color: #171717;
+    color: rgb(255, 179, 0);
+    padding: 1em;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(231, 219, 219);
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #0a0601;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(232, 225, 225);
+    padding: 1em;
+    text-align: center;
+}
